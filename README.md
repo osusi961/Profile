@@ -64,7 +64,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/api/placeholder/1200/800');
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('your-image-path.jpg');
             background-size: cover;
             background-position: center;
             color: white;
@@ -301,7 +301,7 @@
         <h2 class="section-title">作品ギャラリー</h2>
         <div class="gallery">
             <div class="gallery-item">
-                <img src="/api/placeholder/400/300" alt="SF漫画シリーズ">
+                <img src="your-image-path.jpg" alt="SF漫画シリーズ">
                 <div class="overlay">
                     <div class="overlay-content">
                         <h3>未来都市物語</h3>
@@ -310,7 +310,7 @@
                 </div>
             </div>
             <div class="gallery-item">
-                <img src="/api/placeholder/400/300" alt="日常系コメディ">
+                <img src="your-image-path.jpg" alt="日常系コメディ">
                 <div class="overlay">
                     <div class="overlay-content">
                         <h3>わくわく学園生活</h3>
@@ -319,7 +319,7 @@
                 </div>
             </div>
             <div class="gallery-item">
-                <img src="/api/placeholder/400/300" alt="ミステリー作品">
+                <img src="your-image-path.jpg" alt="ミステリー作品">
                 <div class="overlay">
                     <div class="overlay-content">
                         <h3>影の探偵</h3>
@@ -328,7 +328,7 @@
                 </div>
             </div>
             <div class="gallery-item">
-                <img src="/api/placeholder/400/300" alt="ファンタジー短編集">
+                <img src="your-image-path.jpg" alt="ファンタジー短編集">
                 <div class="overlay">
                     <div class="overlay-content">
                         <h3>魔法の国の物語</h3>
@@ -343,7 +343,7 @@
         <h2 class="section-title">About osusi961</h2>
         <div class="about">
             <div class="about-image">
-                <img src="/api/placeholder/400/400" alt="osusi961">
+                <img src="your-image-path.jpg" alt="osusi961">
             </div>
             <div class="about-content">
                 <p>こんにちは、osusi961です。5年間の漫画家としてのキャリアの中で、SF、コメディ、ミステリー、ファンタジーなど、幅広いジャンルで作品を発表してきました。</p>
@@ -398,3 +398,10 @@
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
                 document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
