@@ -242,7 +242,7 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <h1>osusi961</h1>
-            <p>R18漫画であなたの想像を超える世界へ</p>
+            <p>おすし961のポートフォリオサイト</p>
             <a href="#works" class="btn">各種サイトへ</a>
         </div>
     </section>
