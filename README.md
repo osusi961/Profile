@@ -251,45 +251,35 @@
     <section id="works" class="section">
         <h2 class="section-title">各種サイトリンク</h2>
         <div class="gallery">
-    <div class="gallery">
-        <!-- DLsiteリンク -->
-        <div class="gallery-item">
-            <a href="https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG52742.html" target="_blank">
-                <img src="images/dlsite-image.jpg" alt="DLsite">
-                <p>DLsite</p>
-                        </div>
-                    </div>
+            <!-- DLsiteリンク -->
+            <div class="gallery-item">
+                <a href="https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG52742.html" target="_blank">
+                    <img src="images/dlsite-image.jpg" alt="DLsite">
+                    <p>DLsite</p>
                 </a>
             </div>
 
-        <!-- FANZAリンク -->
-        <div class="gallery-item">
-            <a href="https://www.dmm.co.jp/dc/doujin/-/list/=/article=maker/id=200788/" target="_blank">
-                <img src="images/fanza-image.jpg" alt="FANZA">
-                <p>FANZA</p>
-
-                        </div>
-                    </div>
+            <!-- FANZAリンク -->
+            <div class="gallery-item">
+                <a href="https://www.dmm.co.jp/dc/doujin/-/list/=/article=maker/id=200788/" target="_blank">
+                    <img src="images/fanza-image.jpg" alt="FANZA">
+                    <p>FANZA</p>
                 </a>
             </div>
 
-        <!-- Fantiaリンク -->
-        <div class="gallery-item">
-            <a href="https://fantia.jp/fanclubs/483167" target="_blank">
-                <img src="images/fantia-image.jpg" alt="Fantia">
-                <p>Fantia</p>
-                        </div>
-                    </div>
+            <!-- Fantiaリンク -->
+            <div class="gallery-item">
+                <a href="https://fantia.jp/fanclubs/483167" target="_blank">
+                    <img src="images/fantia-image.jpg" alt="Fantia">
+                    <p>Fantia</p>
                 </a>
             </div>
 
-        <!-- Skebリンク -->
-        <div class="gallery-item">
-            <a href="https://skeb.jp/@osusi961" target="_blank">
-                <img src="images/skeb-image.jpg" alt="Skeb">
-                <p>Skeb</p>
-                        </div>
-                    </div>
+            <!-- Skebリンク -->
+            <div class="gallery-item">
+                <a href="https://skeb.jp/@osusi961" target="_blank">
+                    <img src="images/skeb-image.jpg" alt="Skeb">
+                    <p>Skeb</p>
                 </a>
             </div>
         </div>
