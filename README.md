@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
@@ -254,32 +255,48 @@
             <!-- DLsiteリンク -->
             <div class="gallery-item">
                 <a href="https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG52742.html" target="_blank">
-                    <img src="images/dlsite-image.jpg" alt="DLsite">
-                    <p>DLsite</p>
+                    <img src="your-dlsite-image.jpg" alt="DLsite">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <h3>DLsite</h3>
+                        </div>
+                    </div>
                 </a>
             </div>
 
             <!-- FANZAリンク -->
             <div class="gallery-item">
                 <a href="https://www.dmm.co.jp/dc/doujin/-/list/=/article=maker/id=200788/" target="_blank">
-                    <img src="images/fanza-image.jpg" alt="FANZA">
-                    <p>FANZA</p>
+                    <img src="your-fanza-image.jpg" alt="FANZA">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <h3>FANZA</h3>
+                        </div>
+                    </div>
                 </a>
             </div>
 
             <!-- Fantiaリンク -->
             <div class="gallery-item">
                 <a href="https://fantia.jp/fanclubs/483167" target="_blank">
-                    <img src="images/fantia-image.jpg" alt="Fantia">
-                    <p>Fantia</p>
+                    <img src="your-fantia-image.jpg" alt="Fantia">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <h3>Fantia</h3>
+                        </div>
+                    </div>
                 </a>
             </div>
 
             <!-- Skebリンク -->
             <div class="gallery-item">
                 <a href="https://skeb.jp/@osusi961" target="_blank">
-                    <img src="images/skeb-image.jpg" alt="Skeb">
-                    <p>Skeb</p>
+                    <img src="your-skeb-image.jpg" alt="Skeb">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <h3>Skeb</h3>
+                        </div>
+                    </div>
                 </a>
             </div>
         </div>
