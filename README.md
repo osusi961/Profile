@@ -2,16 +2,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>osusi961 | 革新的漫画クリエイター</title>
+    <title>osusi961 | R18漫画家ポートフォリオ</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Permanent+Marker&display=swap" rel="stylesheet">
     <style>
         :root {
-            --primary-color: #2c3e50;
+            --primary-color: #1a1a1a;
             --secondary-color: #e74c3c;
             --accent-color: #3498db;
-            --background-color: #ecf0f1;
-            --text-color: #34495e;
+            --background-color: #1c1c1c;
+            --text-color: #ecf0f1;
         }
 
         *,
@@ -33,7 +32,7 @@
 
         /* ナビゲーションバー */
         header {
-            background-color: rgba(44, 62, 80, 0.8); /* 透明度を加える */
+            background-color: rgba(26, 26, 26, 0.8);
             color: white;
             padding: 1rem 2rem;
             position: fixed;
@@ -42,11 +41,11 @@
             left: 0;
             z-index: 1000;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            transition: background-color 0.3s ease; /* スクロールで色が変わる */
+            transition: background-color 0.3s ease;
         }
 
         header.scrolled {
-            background-color: var(--primary-color); /* スクロール時に不透明に */
+            background-color: var(--primary-color);
         }
 
         nav {
@@ -133,7 +132,7 @@
             font-size: 2.5rem;
             text-align: center;
             margin-bottom: 3rem;
-            color: var(--primary-color);
+            color: var(--text-color);
         }
 
         /* ギャラリー */
@@ -210,12 +209,6 @@
             padding: 2rem;
         }
 
-        /* スクロール時にヘッダー背景色を変更 */
-        window.addEventListener('scroll', function () {
-            const header = document.querySelector('header');
-            header.classList.toggle('scrolled', window.scrollY > 0);
-        });
-
         @media screen and (max-width: 768px) {
             .hero h1 {
                 font-size: 3rem;
@@ -249,26 +242,62 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <h1>osusi961</h1>
-            <p>革新的な漫画で世界を彩る</p>
-            <a href="#works" class="btn">作品を見る</a>
+            <p>R18漫画であなたの想像を超える世界へ</p>
+            <a href="#works" class="btn">各種サイトへ</a>
         </div>
     </section>
 
-    <!-- 作品ギャラリーセクション -->
+    <!-- 各種サイトへのリンクセクション -->
     <section id="works" class="section">
-        <h2 class="section-title">作品ギャラリー</h2>
+        <h2 class="section-title">各種サイトリンク</h2>
         <div class="gallery">
-            <!-- ギャラリーアイテム -->
+            <!-- DLsiteリンク -->
             <div class="gallery-item">
-                <img src="your-image-path.jpg" alt="SF漫画シリーズ">
-                <div class="overlay">
-                    <div class="overlay-content">
-                        <h3>未来都市物語</h3>
-                        <p>SF漫画シリーズ</p>
+                <a href="https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG52742.html" target="_blank">
+                    <img src="your-dlsite-image.jpg" alt="DLsite">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <h3>DLsite</h3>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
-            <!-- その他のアイテム -->
+
+            <!-- FANZAリンク -->
+            <div class="gallery-item">
+                <a href="https://www.dmm.co.jp/dc/doujin/-/list/=/article=maker/id=200788/" target="_blank">
+                    <img src="your-fanza-image.jpg" alt="FANZA">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <h3>FANZA</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Fantiaリンク -->
+            <div class="gallery-item">
+                <a href="https://fantia.jp/fanclubs/483167" target="_blank">
+                    <img src="your-fantia-image.jpg" alt="Fantia">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <h3>Fantia</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Skebリンク -->
+            <div class="gallery-item">
+                <a href="https://skeb.jp/@osusi961" target="_blank">
+                    <img src="your-skeb-image.jpg" alt="Skeb">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <h3>Skeb</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
         </div>
     </section>
 
