@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>osusi961 | R18漫画家ポートフォリオ</title>
+    <!-- Googleフォントのリンク -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Permanent+Marker&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -13,14 +14,14 @@
             --text-color: #ecf0f1;
         }
 
-        *,
-        *::before,
-        *::after {
+        /* 全体のスタイルをリセット */
+        *, *::before, *::after {
             box-sizing: border-box;
             margin: 0;
             padding: 0;
         }
 
+        /* 基本のスタイル */
         body, html {
             font-family: 'Noto Sans JP', sans-serif;
             background-color: var(--background-color);
@@ -88,7 +89,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('your-image-path.jpg');
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/hero-image.jpg'); /* ここで正しい画像パスを指定 */
             background-size: cover;
             background-position: center;
             color: white;
@@ -121,7 +122,7 @@
             background-color: #c0392b;
         }
 
-        /* セクション共通 */
+        /* セクションスタイル */
         .section {
             padding: 5rem 2rem;
             max-width: 1200px;
@@ -135,7 +136,7 @@
             color: var(--text-color);
         }
 
-        /* ギャラリー */
+        /* ギャラリーセクション */
         .gallery {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -201,7 +202,7 @@
             color: var(--secondary-color);
         }
 
-        /* フッター */
+        /* フッタースタイル */
         footer {
             background-color: var(--primary-color);
             color: white;
@@ -254,7 +255,7 @@
             <!-- DLsiteリンク -->
             <div class="gallery-item">
                 <a href="https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG52742.html" target="_blank">
-                    <img src="your-dlsite-image.jpg" alt="DLsite">
+                    <img src="images/dlsite-image.jpg" alt="DLsite"> <!-- 正しい画像パスに修正 -->
                     <div class="overlay">
                         <div class="overlay-content">
                             <h3>DLsite</h3>
@@ -266,7 +267,7 @@
             <!-- FANZAリンク -->
             <div class="gallery-item">
                 <a href="https://www.dmm.co.jp/dc/doujin/-/list/=/article=maker/id=200788/" target="_blank">
-                    <img src="your-fanza-image.jpg" alt="FANZA">
+                    <img src="images/fanza-image.jpg" alt="FANZA"> <!-- 正しい画像パスに修正 -->
                     <div class="overlay">
                         <div class="overlay-content">
                             <h3>FANZA</h3>
@@ -278,7 +279,7 @@
             <!-- Fantiaリンク -->
             <div class="gallery-item">
                 <a href="https://fantia.jp/fanclubs/483167" target="_blank">
-                    <img src="your-fantia-image.jpg" alt="Fantia">
+                    <img src="images/fantia-image.jpg" alt="Fantia"> <!-- 正しい画像パスに修正 -->
                     <div class="overlay">
                         <div class="overlay-content">
                             <h3>Fantia</h3>
@@ -290,7 +291,7 @@
             <!-- Skebリンク -->
             <div class="gallery-item">
                 <a href="https://skeb.jp/@osusi961" target="_blank">
-                    <img src="your-skeb-image.jpg" alt="Skeb">
+                    <img src="images/skeb-image.jpg" alt="Skeb"> <!-- 正しい画像パスに修正 -->
                     <div class="overlay">
                         <div class="overlay-content">
                             <h3>Skeb</h3>
